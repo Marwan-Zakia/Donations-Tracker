@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(school.jpg);
+
+
+}
+
+header{
+ background-color:  #1F1F1F;
+align-items: center;
+justify-content: center;
+height: 50px;
+color: #f5f5f5;
+text-align: center;
+font-family: 'Noto Sans', sans-serif;
+}
+
+#form{
+    display: grid;
+    padding: 5px;
+    width: 300px;
+   height: 300px;
+
+}
+#form input #name   {
+  
+    width: 300px;
+   height: 50px;
+
+}
+#form input [type="submit"]  {
+  
+    width: 300px;
+   height: 50px;
+   color:  #1F1F1F ;
+
+}
+
+#cssform{
+   background-color:rgba(114, 104, 211, 0.8) ; 
+ 
+   
+   position: absolute;
+   top: 30%;
+   left: 150px;
+
+}
+table{
+    position: absolute;
+    border: #f5f5f5;
+    text-emphasis-color: #f5f5f5;
+    width: 100%;
+    background-color:#3D3D3D; 
+    color:f5f5f5 ; 
+    padding: 30px;
+   padding-right: 10px;
+   border-collapse: separate
+
+
+}
+#csstable{
+    background-color:rgba(114, 104, 211, 0.8) ; 
+    display: flexbox;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 30%;
+    left: 800px;
+ 
+ }
+ #csstable td{
+     
+    background-color:#3D3D3D; 
+ color:f5f5f5 ; 
+ padding: 30px;
+padding-right: 10px;
+ }
+
+
+
+ #clearall{
+position: absolute;
+top: 60%;
+left: 40%;
+
+ }
